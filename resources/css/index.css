@@ -46,7 +46,6 @@ header nav span a {
 .content {
   width: 1200px;
   position: relative;
-  top: 69px;
   margin: 0 auto;
 }
 
@@ -88,7 +87,7 @@ h4 {
 
 #featured {
   width: 1000px;
-  margin: 50px auto;
+  margin: 0 auto 50px auto;
 }
 
 #featured h4 {
@@ -117,7 +116,6 @@ h4 {
 
 #locations {
   height: 500px;
-  justify-content: center;
   background-image: url(https://raw.githubusercontent.com/Generian/TeaCozy/master/resources/images/img-locations-background.jpg);
   background-position: center;
 }
@@ -150,5 +148,12 @@ h3 {
   font-weight: bold;
   padding: 40px 20px;
   position: relative;
+}
+
+.content, .copyright, {
   top: 69px;
+}
+
+#mission, #featured, #locations {
+  padding-top: 70px;
 }
